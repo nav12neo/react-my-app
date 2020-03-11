@@ -1,0 +1,15 @@
+.App-header {
+    display: flex;
+    flex-direction: row-reverse;
+    background: #61dafb;
+}
+.App-header a {
+    padding:20px;
+    display: inline-block;
+    text-decoration: none;
+    font-size:24px;
+    text-transform: lowercase;
+}
+.App-header a:hover {
+    background : #FFF;
+}

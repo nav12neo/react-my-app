@@ -1,0 +1,48 @@
+table {
+    width:70%;
+    margin:20px;
+}
+table thead td {
+    font-weight:bold;
+    padding:8px;
+    border:1px solid #eee;
+}
+
+table tbody td {
+    padding:8px;
+    border:1px solid #eee;
+}
+
+table thead td.employee_name {
+    width : 50%;
+}
+
+table thead td.employee_salary {
+    width : 30%;
+}
+
+table thead td.employee_age {
+    width : 20%;
+}
+
+table td.actions {
+    cursor: pointer;
+    text-align :center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 0 15px;
+    background: #2E86C1;
+    color: #FFF;
+}
+table td.actions:hover {
+    background: #5DADE2;
+}
+
+table td.actions.delete {
+    background: #CB4335;
+}
+table td.actions.delete:hover {
+    background: #EC7063 ;
+}
+
