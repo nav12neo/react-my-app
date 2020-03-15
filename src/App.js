@@ -4,7 +4,7 @@ import Header from './GlobalComponents/Header/Header';
 import Dashboard from './pages/dashboard/Dashboard';
 import Events from './pages/events/Events';
 import Home from './Home';
-import { Switch, Route, Link } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 
 import './App.css';
 
